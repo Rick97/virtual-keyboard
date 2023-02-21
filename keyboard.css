@@ -10,7 +10,7 @@ body{
     width: 100%;
     box-sizing: border-box; 
     resize: none;
-    padding: 1em 0.5em 1em 0.5em;
+    padding: 1em 0.5em;
     height: 3.5em;
     outline: none;
     border: 2px solid ivory;
@@ -35,22 +35,21 @@ body{
 }
 .key{
     margin: 0.1em;
-    width: clamp(2.2em, 5vw, 3em);
+    width: clamp(1.5em, 1em + 4vw, 3em);
 }
 .input{
     margin-top: 2em;
-    min-width: 50%;
-    max-width: 100%;
 }
 #space{
     width: 20em;
     height: 3.5em;
 }
 #shift{
-    width: 4em;
+    width: clamp(3em, 3em + 5vw, 4em);
+
 }
 #delete{
-    width: 5em;
+    width: clamp(4em, 3em + 7vw, 6em);
 }
 button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
